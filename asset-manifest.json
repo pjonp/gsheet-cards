@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gsheet-cards/static/css/main.057c7483.chunk.css",
-    "main.js": "/gsheet-cards/static/js/main.073978b5.chunk.js",
-    "main.js.map": "/gsheet-cards/static/js/main.073978b5.chunk.js.map",
+    "main.js": "/gsheet-cards/static/js/main.e172d30e.chunk.js",
+    "main.js.map": "/gsheet-cards/static/js/main.e172d30e.chunk.js.map",
     "runtime-main.js": "/gsheet-cards/static/js/runtime-main.cfa6e92e.js",
     "runtime-main.js.map": "/gsheet-cards/static/js/runtime-main.cfa6e92e.js.map",
     "static/js/2.41caa598.chunk.js": "/gsheet-cards/static/js/2.41caa598.chunk.js",
     "static/js/2.41caa598.chunk.js.map": "/gsheet-cards/static/js/2.41caa598.chunk.js.map",
     "index.html": "/gsheet-cards/index.html",
-    "precache-manifest.51e32158e3b96d67941b478f75d9a80e.js": "/gsheet-cards/precache-manifest.51e32158e3b96d67941b478f75d9a80e.js",
+    "precache-manifest.3e30042297400469c9537debd7097f9d.js": "/gsheet-cards/precache-manifest.3e30042297400469c9537debd7097f9d.js",
     "service-worker.js": "/gsheet-cards/service-worker.js",
     "static/css/main.057c7483.chunk.css.map": "/gsheet-cards/static/css/main.057c7483.chunk.css.map",
     "static/js/2.41caa598.chunk.js.LICENSE": "/gsheet-cards/static/js/2.41caa598.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cfa6e92e.js",
     "static/js/2.41caa598.chunk.js",
     "static/css/main.057c7483.chunk.css",
-    "static/js/main.073978b5.chunk.js"
+    "static/js/main.e172d30e.chunk.js"
   ]
 }
