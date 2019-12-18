@@ -4,6 +4,7 @@ const fetch = require('node-fetch');
 
 let dataSource=`https://sheets.googleapis.com/v4/spreadsheets/15EjulSafzvsyoGKjuKMPCUKS4PHAU8q36h0r4125E6I/values/Sheet1!A1:D500?key=${process.env.REACT_APP_GKEY}`
 
+
 export default class App extends Component{
   constructor(props){
     super(props);
@@ -22,7 +23,7 @@ export default class App extends Component{
     .then(response => response.json())
     .then(r => {
       this.setState({
-        dataMaster: r.values,
+        dataMaster: r.values || [],
       })
     })
     .catch()
@@ -78,10 +79,9 @@ render() {
       return(
       <div className='itemContainer' key={i[0]}>
         <div className='itemContainerBack'>
-          <p className='itemName'>{i[0]}</p>
-          <div className='itemImage' style={ { backgroundImage: `url(${process.env.PUBLIC_URL + 'panel.png'})`  } } >
-            <textarea rows="3" onClick={this.copyCommandText} value={`!redeem game${tier.replace('TIER ','')} ${i[0]}` } readOnly="readonly"/>
-            <a href={i[3]} target='_blank' rel="noopener noreferrer">View In Steam Store</a>
+          <a href={i[3]} target='_blank' rel="noopener noreferrer" className='itemName'>{i[0]}</a>
+          <div className='itemImage' style={ { backgroundImage: `url(${process.env.PUBLIC_URL + '/legit.jpg'})`  } } >
+            <textarea rows="2" onClick={this.copyCommandText} value={`!redeem game${tier.replace('TIER ','')} ${i[0]}` } readOnly="readonly"/>
           </div>
           <div className='itemInfo'>
             <p className='itemTier'>{tier}</p>
@@ -96,7 +96,6 @@ render() {
             <p className='itemCost'>{cost} <i className="fas fa-puzzle-piece">'s</i></p>
           </div>
        </div>
-
      </div>
     )
 
