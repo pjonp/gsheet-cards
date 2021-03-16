@@ -4,7 +4,7 @@
   "homepage": "https://pjonp.github.io/gsheet-cards/",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "charicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
