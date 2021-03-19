@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1147541b670bec72e63bdc3a8de9be07",
+    "revision": "c396772b8653434caf4a73a1eebd129b",
     "url": "/gsheet-cards/index.html"
   },
   {
-    "revision": "ba56327ec76593e0a6b9",
+    "revision": "0b6af42c3390b6c28fd2",
     "url": "/gsheet-cards/static/css/main.95c0c3cf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gsheet-cards/static/js/2.d524e61f.chunk.js.LICENSE"
   },
   {
-    "revision": "ba56327ec76593e0a6b9",
-    "url": "/gsheet-cards/static/js/main.5a0fd21b.chunk.js"
+    "revision": "0b6af42c3390b6c28fd2",
+    "url": "/gsheet-cards/static/js/main.1d3892c4.chunk.js"
   },
   {
     "revision": "c1f1187406e24906f742",
